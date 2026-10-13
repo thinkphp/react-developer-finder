@@ -1,5 +1,5 @@
 {
-  "name": "github-profile-explorer",
+  "name": "react-developer-finder",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -7,13 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy":"npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
+    "gh-pages": "^6.3.0",
     "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {}
+    "react-dom": "latest",
+    "vite": "latest"
+  }
 }
